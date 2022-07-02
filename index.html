@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/skull_icon_125766.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/61d0d024e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.js"></script>
+    <title>Pirate's treasure</title>
+  </head>
+  <body>
+    <!---------------          NAVBAR        --------------------->
+
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light shadow-thp fixed-top"
+        style="background-color: #625639"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/logo.png"
+              alt=""
+              width="30"
+              height="30"
+              style="border-radius: 50px"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <a class="navbar-brand text-white" href="#">Pirate's treasure</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Evènements
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                  style="background-color: #4c432c"
+                >
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Mai 2023</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Juin 2023</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#"
+                      >Juillet 2023</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Réserver</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Nous contacter</a>
+              </li>
+            </ul>
+            <a href="" class="navbar-text nav-link text-white">F.A.Q</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!---------------    JUMBOTRON      ------------------------------>
+
+    <div
+      id="jumbotron-hero"
+      class="container-fluid bg-image p-5 mb-5 text-center text-shadow"
+    >
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white justify-content-center align-items-center">
+          <h1 class="pt-5">Venez vivre l'aventure de votre vie!</h1>
+          <h2 class="pt-5">en bateau de pirates</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-------------     3 CARDS      --------------------------------->
+
+    <div
+      class="container w-100"
+      style="margin-top: 100px; margin-bottom: 100px"
+    >
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col">
+          <div
+            class="card border-0 mx-auto"
+            style="
+              width: 21rem;
+              margin-right: 100px;
+              border-radius: 25px;
+              box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+            "
+          >
+            <img
+              src="/assets/bjorn-pierre--clf0K7plGM-unsplash.jpg"
+              class="card-img-top"
+              alt=""
+              style="border-radius: 25px 25px 0 0"
+            />
+            <div
+              class="card-body text-white text-center"
+              style="background-color: #5f490e80; border-radius: 0 0 25px 25px"
+            >
+              <h5 class="card-title m-3">Extrêmes</h5>
+              <p class="card-text">
+                nous aimons les challenges et faire vivre des aventures
+                inoubliables!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card border-0 mx-auto"
+            style="
+              width: 21rem;
+              box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+              border-radius: 25px;
+            "
+          >
+            <img
+              src="/assets/roman-kraft-kRsd59yRNQ4-unsplash.jpg"
+              class="card-img-top"
+              alt=""
+              style="border-radius: 25px 25px 0 0"
+            />
+            <div
+              class="card-body text-white text-center"
+              style="background-color: #5f490e80; border-radius: 0 0 20px 20px"
+            >
+              <h5 class="card-title m-3">Surprenants</h5>
+              <p class="card-text">
+                nous avons des idées qui nous font peur à nous-mêmes!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card border-0 mx-auto"
+            style="
+              width: 21rem;
+              border-radius: 25px;
+              box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+            "
+          >
+            <img
+              src="https://images.unsplash.com/photo-1439209306665-700c9bca794c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              class="card-img-top"
+              alt=""
+              style="border-radius: 25px 25px 0 0"
+            />
+            <div
+              class="card-body text-white text-center"
+              style="background-color: #5f490e80; border-radius: 0 0 25px 25px"
+            >
+              <h5 class="card-title m-3">Sympathiques</h5>
+              <p class="card-text">
+                nous sommes des pirates, mais nous aimons faire la fête.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------      CTA EMAIL      ----------------------->
+
+    <section class="container-fluid">
+      <div
+        class="row row-cols-1 row-cols-md-1 py-5 d-flex align-items-center"
+        style="height: 380px; background-color: #625639"
+      >
+        <div class="cta">
+          <h2 class="text-white text-center pb-5">
+            Profitez d'une offre exceptionnelle
+          </h2>
+          <div
+            class="input-group d-flex justify-content-center align-items-center"
+          >
+            <p class="text-white text-center mb-4 pe-3">
+              Abonnez-vous à notre newsletter et recevez une remise
+              exceptionnelle !
+            </p>
+          </div>
+          <div class="d-flex justify-content-center py-3">
+            <a
+              class="btn btn-light btn-lg"
+              href="http://eepurl.com/h5Nxmz"
+              target="_blank"
+              style="appearance: button"
+            >
+              S'abonner</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------   CAROUSEL TESTIMONIALS    ----------------------->
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide container slide py-5"
+      data-bs-ride="carousel"
+      style="margin-bottom: 100px"
+    >
+      <h1
+        class="display-3 text-center mt-5 fw-bold text-shadow-white"
+        style="margin-bottom: 100px"
+      >
+        Témoignages
+      </h1>
+      <div
+        class="carousel-inner mt-5"
+        style="
+          border-radius: 20px;
+          box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+          background-color: #a89a7a;
+        "
+      >
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1485875437342-9b39470b3d95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80"
+            class="d-block w-100"
+            alt="..."
+            style="border-radius: 20px"
+          />
+          <h3 class="text-center text-shadow-white m-4">
+            Juste excellentissime! je ne m'attendais pas à une telle aventure...
+            complètement dépaysant...
+          </h3>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            class="d-block w-100"
+            alt="..."
+            style="border-radius: 20px"
+          />
+          <h3 class="text-center text-shadow-white m-4">
+            Pouvoir se retrouver sur un île avec notre carte... Le meilleur
+            escape game de notre vie!
+          </h3>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
+            class="d-block w-100"
+            alt="..."
+            style="border-radius: 20px"
+          />
+          <h3 class="text-center text-shadow-white m-4">
+            nous sommes déjà inscrit pour le prochain évènement! et le kiff de
+            gagner!
+          </h3>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!----------------       CTA EMAIL     --------------------------->
+
+    <section class="container-fluid">
+      <div
+        class="row row-cols-1 row-cols-md-1 py-5 d-flex align-items-center"
+        style="height: 380px; background-color: #625639"
+      >
+        <div class="cta">
+          <h2 class="text-white text-center pb-5">
+            Profitez d'une offre exceptionnelle
+          </h2>
+          <div
+            class="input-group d-flex justify-content-center align-items-center"
+          >
+            <p class="text-white text-center mb-4 pe-3">
+              Abonnez-vous à notre newsletter et recevez une remise
+              exceptionnelle !
+            </p>
+          </div>
+          <div class="d-flex justify-content-center py-3">
+            <a
+              class="btn btn-light btn-lg"
+              href="http://eepurl.com/h5Nxmz"
+              target="_blank"
+              style="appearance: button"
+            >
+              S'abonner</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------      PRESENTATIONS         ----------------------->
+
+    <div class="container presentations text-center">
+      <div class="row justify-content-center m-3">
+        <div class="col-sm-4">
+          <div
+            class="card border-0 mx-auto"
+            style="
+              width: 21rem;
+              margin: 50px;
+              border-radius: 25px;
+              box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+              background: linear-gradient(180deg, #5f490e80, #e8d39880);
+            "
+          >
+            <div class="card-body">
+              <img
+                src="/assets/barbu.png"
+                class="pictures_presentation card-img-top rounded-circle"
+                style="
+                  box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.81),
+                    2px 2px 8px rgba(0, 0, 0, 0.81);
+                "
+                alt=""
+              />
+              <h3 class="card-title pt-4 text-shadow-white font_presentation">
+                ANTHONY
+              </h3>
+              <p class="card-text">
+                Futur dév plein de motivation et de créativité!!
+              </p>
+              <a href="#"
+                ><img src="/assets/github-brands.svg" class="logo"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div
+            class="card border-0 mx-auto"
+            style="
+              width: 21rem;
+              margin: 50px;
+              border-radius: 25px;
+              box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+              background: linear-gradient(45deg, #5f490e80, #e8d39880);
+            "
+          >
+            <div class="card-body">
+              <img
+                src="/assets/fille pirate.png"
+                class="pictures_presentation card-img-top rounded-circle"
+                alt=""
+              />
+              <h3 class="card-title pt-4 text-shadow-white font_presentation">
+                CHRISTELLE
+              </h3>
+              <p class="card-text">
+                Futur dév plein de motivation et de créativité!!
+              </p>
+              <a href="https://github.com/Chreees79" target="_blank"
+                ><img src="/assets/github-brands.svg" class="logo"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <div
+              class="card border-0 mx-auto"
+              style="
+                width: 21rem;
+                margin: 50px;
+                border-radius: 25px;
+                box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+                background: linear-gradient(245deg, #5f490e80, #e8d39880);
+              "
+            >
+              <div class="card-body">
+                <img
+                  src="/assets/jeune.png"
+                  class="pictures_presentation card-img-top rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title pt-4 text-shadow-white font_presentation">
+                  GREGORY
+                </h3>
+                <p class="card-text">
+                  Futur dév plein de motivation et de créativité!!
+                </p>
+                <a href="#"
+                  ><img src="/assets/github-brands.svg" class="logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div
+              class="card border-0 mx-auto"
+              style="
+                width: 21rem;
+                margin: 50px;
+                border-radius: 25px;
+                box-shadow: 1px 1px 18px 5px rgba(0, 0, 0, 0.81);
+                background: linear-gradient(360deg, #5f490e80, #e8d39880);
+              "
+            >
+              <div class="card-body">
+                <img
+                  src="/assets/chat pirate.png"
+                  class="pictures_presentation card-img-top rounded-circle"
+                  alt=""
+                />
+                <h3 class="card-title pt-4 text-shadow-white font_presentation">
+                  Mr LE CHAT
+                </h3>
+                <p class="card-text">
+                  Futur dév plein de motivation et de créativité!!
+                </p>
+                <a href="#"
+                  ><img src="/assets/github-brands.svg" class="logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------    FOOTER   ------------------------------->
+
+    <footer>
+      <nav
+        class="navbar navbar-expand-lg navbar-light justify-content-center align-items-center"
+        style="background-color: #9c8f70; position: sticky; bottom: 0"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/logo.png"
+              alt=""
+              width="50"
+              height="50"
+              style="border-radius: 50px"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <a class="navbar-brand" href="#">
+            <img src="assets/facebook_logo_icon_147291.ico"" alt="" width="50"
+            height="50" style="border-radius: 50px; box-shadow:-2px -2px 4px
+            rgba(255, 255, 255, 0.259), 2px 2px 4px rgba(0, 0, 0, 0.681)"
+            class="d-inline-block align-text-top" />
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/1491579542-yumminkysocialmedia22_83078.ico"
+              alt=""
+              width="50"
+              height="50"
+              style="
+                border-radius: 50px;
+                box-shadow: -2px -2px 4px rgba(255, 255, 255, 0.259),
+                  2px 2px 4px rgba(0, 0, 0, 0.681);
+              "
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <a
+            class="nav-link text-white desabo"
+            href="https://yahoo.us9.list-manage.com/unsubscribe?u=cae058291768dcc3b5b91a1a0&id=478a275cd9"
+            target="_blank"
+            style="font-style: italic"
+            >Se désabonner</a
+          >
+          <p style="margin-top: 10px; font-style: italic">
+            © Pirate's treasure Session Eté 2022
+          </p>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
