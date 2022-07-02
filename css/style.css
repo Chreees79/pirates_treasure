@@ -116,9 +116,9 @@ main a:hover {
   font-family: "merienda one", cursive;
 }
 .logo {
-  width: 50px;
-  height: 50px;
-  animation: logo 1.3s infinite alternate;
+  width: 80px;
+  height: 80px;
+  animation: logo 2s infinite;
 }
 @keyframes logo {
   0% {
@@ -126,7 +126,7 @@ main a:hover {
     border-radius: 50%;
   }
   50% {
-    background-color: #ffffff;
+    background-color: #ffffff93;
     border-radius: 50%;
   }
   100% {
