@@ -116,8 +116,8 @@ main a:hover {
   font-family: "merienda one", cursive;
 }
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   animation: logo 2s infinite;
   fill: rgb(9, 8, 8)
 }
