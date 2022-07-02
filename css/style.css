@@ -119,6 +119,7 @@ main a:hover {
   width: 80px;
   height: 80px;
   animation: logo 2s infinite;
+  fill: rgb(9, 8, 8)
 }
 @keyframes logo {
   0% {
