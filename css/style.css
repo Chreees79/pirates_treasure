@@ -10,7 +10,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100vh;
-  min-width: 375px;
+  min-width: 425px;
 }
 .text-shadow {
   text-shadow: 2px 2px 2px #000;
@@ -57,7 +57,7 @@ html {
   color: rgba(255, 255, 255, 0);
 }
 main a:hover {
-  color: rgba(109, 80, 46, 0.106);
+  color: rgba(109, 80, 46, 0.253);
   text-decoration: none;
 }
 /*    -------     CTA  -----------    */
